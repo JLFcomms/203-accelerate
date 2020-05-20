@@ -63,21 +63,24 @@ div.case-study-images {
 	text-align: center;
 }
 
-ul {
+.homepage-featured-work {
 	list-style: none;
 }
 
-li {
+.individual-featured-work {
 	display: inline-block;
-	padding: 5px;
+	width: 31%;
+	margin: 9.5px; 
 }
 
-.featured-work h3 {
+.individual-featured-work h3 {
 	text-align: center;
 	position: relative;
-	padding: -100px;
-	top: -40px;
+    padding: -100px;
+    top: -30px;
 }
+
+
 
 /* Archives Page */
 div.case-study-images img {
