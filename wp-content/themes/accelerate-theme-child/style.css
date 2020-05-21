@@ -89,3 +89,20 @@ div.case-study-images img {
 	padding: 10px;
 	margin: 10px;
 }
+
+/* Social Media Icons */
+#menu-social-media-nav.social-media-menu {
+	list-style: none;
+}
+
+#menu-social-media-nav.social-media-menu li {
+	display: inline-block;
+	background-color: gray;
+	border-radius: 50%;
+	padding: 5px;
+	margin: 5px;
+}
+
+#menu-item-47354 {
+	color: purple;
+}
