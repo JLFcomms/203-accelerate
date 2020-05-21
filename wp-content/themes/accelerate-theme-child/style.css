@@ -80,8 +80,6 @@ div.case-study-images {
     top: -30px;
 }
 
-
-
 /* Archives Page */
 div.case-study-images img {
 	width: 100%;
@@ -97,12 +95,18 @@ div.case-study-images img {
 
 #menu-social-media-nav.social-media-menu li {
 	display: inline-block;
-	background-color: gray;
+	background-color: black;
 	border-radius: 50%;
-	padding: 5px;
 	margin: 5px;
+	width: 40px;
+	height: 40px; 
 }
 
-#menu-item-47354 {
-	color: purple;
+a {
+	display: block;
+	align-items: center;
+	padding-top: 1.5px;
+	padding-left: 4px;
+	margin: 10px;
+	color: white;
 }
