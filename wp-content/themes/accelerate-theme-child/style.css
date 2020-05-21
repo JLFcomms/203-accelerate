@@ -89,22 +89,41 @@ div.case-study-images img {
 }
 
 /* Social Media Icons */
-#menu-social-media-nav.social-media-menu {
+.social-media-menu ul {
 	list-style: none;
-}
-
-#menu-social-media-nav.social-media-menu li {
-	display: inline-block;
-	background-color: pink;
 	border-radius: 50%;
-	margin: 5px;
-	width: 40px;
-	height: 40px; 
 }
 
-a {
+.social-media-menu li { 
+    display: inline-block;
+    border-radius: 50%;
+    margin: 6px;
+    width: 40px;
+    height: 40px;
+	background-color: black;
 	align-items: center;
 	padding-top: 10px;
-	margin: 15px;
+	padding-right: 15px;
+	padding-left: 10px;
 }
 
+.social-media-menu .fa-twitter:before {
+	color: white;
+	font-size: 2em;
+	padding-right: 0.175px;
+	margin: -2px; 
+}
+
+.social-media-menu .fa-facebook-f:before {
+	color: white;
+	font-size: 2em;
+} 
+
+.social-media-menu .fa-linkedin:before {
+	color: white;
+	font-size: 2em;
+	margin: -3px;
+	padding-left: 2px;
+	padding-bottom: 50px;
+	padding-top: 5px; 
+}
