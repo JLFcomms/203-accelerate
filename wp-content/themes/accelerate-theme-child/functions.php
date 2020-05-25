@@ -31,3 +31,18 @@ function create_custom_post_types() {
     );
 }
 add_action( 'init', 'create_custom_post_types' );
+
+function create_custom_page_types() {
+    register_post_type( 'services',
+        array(
+            'labels' => array(
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Service' )
+            ),
+            'public' => true,
+            'has_archive' => false,
+            'rewrite' => array( 'slug' => 'about' ),
+        )
+    );
+}
+add_action( 'init', 'create_custom_page_types' );

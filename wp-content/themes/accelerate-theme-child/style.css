@@ -164,3 +164,18 @@ div.case-study-images img {
 	background-color: #45ac9d;
 	width: 150px;
 }
+
+/* About Page */
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	line-height: 1.5;
+	text-align: center;
+}
