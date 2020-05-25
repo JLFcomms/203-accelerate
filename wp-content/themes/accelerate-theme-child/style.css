@@ -108,22 +108,59 @@ div.case-study-images img {
 }
 
 .social-media-menu .fa-twitter:before {
-	color: white;
-	font-size: 2em;
-	padding-right: 0.175px;
-	margin: -2px; 
+    color: white;
+    font-size: 2em;
+    padding-right: 0.175px;
+    margin: -2px; 
 }
 
 .social-media-menu .fa-facebook-f:before {
-	color: white;
-	font-size: 2em;
+    color: white;
+    font-size: 2em;
 } 
 
 .social-media-menu .fa-linkedin:before {
-	color: white;
-	font-size: 2em;
-	margin: -3px;
-	padding-left: 2px;
-	padding-bottom: 50px;
-	padding-top: 5px; 
+    color: white;
+    font-size: 2em;
+    margin: -3px;
+    padding-left: 2px;
+    padding-bottom: 50px;
+    padding-top: 5px; 
+}
+
+/* Contact Us Page */
+#nf-field-1-wrap {
+	float: left;
+	position: absolute;
+	width: 47.5%; 
+}
+
+#nf-field-2-wrap { 
+	float: left;
+	position: relative;
+	margin-left: 500px;
+	width: 47.5%;
+}
+
+#nf-label-field-3 {
+    visibility: hidden;
+}
+
+#nf-label-field-3:before {
+    content:'Your Message'; 
+    visibility: visible;
+}
+
+.nf-form-fields-required {
+	display: none;
+}
+
+.ninja-forms-req-symbol {
+	display: none;
+}
+
+#nf-field-4 {
+	float: right;
+	background-color: #45ac9d;
+	width: 150px;
 }
