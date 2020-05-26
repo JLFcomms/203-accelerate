@@ -160,6 +160,20 @@ div.case-study-images img {
 }
 
 /* Contact Us Page */
+
+.contact-us .main-content {
+	width: 500px;
+}
+
+.contact-us .main-content h2 {
+	color: black;
+	text-align: left;
+}
+
+.contact-us .main-content p {
+	text-align: left;
+}
+
 #nf-field-1-wrap {
 	float: left;
 	position: absolute;

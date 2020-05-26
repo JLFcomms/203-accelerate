@@ -61,3 +61,14 @@ function accelerate_theme_child_widget_init() {
 	
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+function accelerate_child_body_classes( $classes ) {
+
+    if (is_page('contact-us') ) {
+    $classes[] = 'contact-us';
+    }
+    
+    return $classes;
+    }
+
+    add_filter( 'body_class','accelerate_child_body_classes' );
