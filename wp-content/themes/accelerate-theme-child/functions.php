@@ -41,7 +41,7 @@ function create_custom_page_types() {
             ),
             'public' => true,
             'has_archive' => false,
-            'rewrite' => array( 'slug' => 'about' ),
+            'rewrite' => array( 'slug' => 'Service' ),
         )
     );
 }
