@@ -65,11 +65,21 @@ Text Domain:  accelerate-theme-child
 aside.case-study-sidebar {
 	float: left;
 	width: 300px;
+	margin-top: -20px;
 }
 
 div.case-study-images {
 	float: left;
 	width: 606px;
+}
+
+.case-study-sidebar h2 {
+	color: black;
+	text-align: left;
+}
+
+.case-study-sidebar p {
+	text-align: left;
 }
 
 /* Individual Blog Pages */
