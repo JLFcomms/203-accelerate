@@ -28,6 +28,10 @@ Text Domain:  accelerate-theme-child
 	margin-bottom: 2em;
 }
 
+.blog-post p {
+	text-align: left;
+}
+
 .blog-post h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
@@ -46,6 +50,16 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/* Blog Page */
+
+.entry-summary a {
+	color: #45ac9d;
+}
+
+.entry-summary p {
+	text-align: left;
+}
+
 /* Case Studies */
 
 aside.case-study-sidebar {
@@ -56,6 +70,13 @@ aside.case-study-sidebar {
 div.case-study-images {
 	float: left;
 	width: 606px;
+}
+
+/* Individual Blog Pages */
+
+.entry-title {
+	color: #45ac9d;
+	text-align: left;
 }
 
 /* Featured Work on Homepage */
@@ -178,4 +199,19 @@ h2 {
 	color: white;
 	line-height: 1.5;
 	text-align: center;
+}
+
+/* 404 Page */
+
+.page-not-found {
+	position: relative;
+	padding: 100px;
+}
+
+h1 {
+	font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #45ac9d;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
 }
